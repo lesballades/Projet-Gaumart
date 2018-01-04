@@ -1,0 +1,114 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'myriad';
+    src: url('asset/font/Myriad Pro Regular.ttf');
+}
+
+#containerform {
+    width: 100%;
+    display: flex;
+}
+
+.contactform {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.adresseform {
+    font-family: 'Myriad gras';
+    font-size: 20px;
+    font-weight: bold;
+    color: #df551a;
+    margin-left: 18%;
+    /*font pour le titre*/
+}
+
+.telform {
+    font-family: 'Myriad';
+    font-size: 20px;
+    color: #000;
+    margin-left: 18%;
+    /*font pour le contenu*/
+}
+
+.emailform {
+    font-family: 'Myriad';
+    font-size: 20px;
+    color: #000;
+    margin-left: 18%;
+}
+
+span {
+    color: #df551a;
+}
+
+#imagepageformulaire {
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+button {
+    border-radius: 20%;
+    color: white;
+    position: relative;
+    left: 18%;
+    background-color: #df551a;
+}
+
+.contactform2 {
+    width: 55%;
+    height: auto;
+    display: inline-block;
+    padding-top: 6%;
+    margin-left: 5%;
+}
+
+.nom {
+    border: 1px solid black;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 5%;
+}
+
+.societe {
+    border: 1px solid black;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 5%;
+}
+
+.email {
+    border: 1px solid black;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 5%;
+}
+
+.tel {
+    border: 1px solid black;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 5%;
+}
+
+#message {
+    border: 1px solid black;
+    width: 650px;
+    height: 210px;
+    margin-bottom: 5%;
+}
+
+.droite {
+    margin-left: 570px;
+    height: 30px;
+    width: 90px;
+    margin-top: 1%;
+    margin-bottom: 0;
+    border-radius: 20%;
+    color: white;
+    background-color: black;
+}

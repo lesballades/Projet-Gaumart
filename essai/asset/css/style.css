@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'myriad';
+    src: url('assets/font/Myriad Pro Regular.ttf');
+}
+
+
+/*-------------RESET CSS----------------*/
+
+html,
+body,
+address,
+blockquote,
+div,
+dl,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+table,
+ul,
+dd,
+dt,
+li,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+button,
+del,
+ins,
+map,
+object,
+a,
+abbr,
+acronym,
+b,
+bdo,
+big,
+br,
+cite,
+code,
+dfn,
+em,
+i,
+img,
+kbd,
+q,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+tt,
+var,
+legend,
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    /* ie8 */
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+@media screen and (min-width: 12.5em;
+) and (max-width: 35em;
+) .footer1 {
+    color: blue;
+    font-size: 1.5em
+}
+
+@media screen and (min-width: 561px;
+) and (max-width: 1000px;
+) h1 {
+    color: red;
+    font-size: 1.5em
+}
+
+h2 {
+    color: red;
+    font-size: 80%
+}
+
+@media screen and (min-width: 600px;
+) and (max-width: 1800px;
+) h1 {
+    color: green;
+    font-size: 1.5em
+}
+
+h2 {
+    color: green;
+    font-size: 80%
+}
+
+
+/*CSS*/
+
+body {
+    font-family: myriad !important;
+    width: 100%;
+    height: auto;
+}
+
+
+/*barre de navigation*/
+
+#entete {
+    width: 100%;
+    height: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+li {
+    font-family: myriad;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {}
+
+nav a {
+    color: black;
+}
+
+a:active {
+    background-color: #df551a;
+}
+
+hr {
+    margin-top: -2.81em;
+    width: 90%;
+    height: 0.25em;
+    background-color: black;
+    border: none;
+}
+
+#logo img {
+    z-index: 2 !important;
+    background-color: #df551a;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+
+/*carousel*/
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+
+/*footer*/
+
+#footer {
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-family: myriad;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer1 {
+    font-size: 0.94em;
+    font-weight: bold;
+}
+
+.footer2 {
+    font-size: 0.63em;
+    font-weight: bold;
+}
+
+
+/*-------------CLASS CLEAR POUR LES FLOAT----------------*/
+
+
+/*
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+
+*/

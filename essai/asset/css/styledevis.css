@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'myriad';
+    src: url('assets/font/Myriad Pro Regular.ttf');
+}
+
+body {
+    font-family: myriad !important;
+    width: 1920px;
+    height: 1080px;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#contenu {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#contact {
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #df551a;
+}
+
+h3 {
+    font-size: 25px;
+    color: #000;
+}
+
+span {
+    color: #df551a;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+legend {
+    font-size: 18px;
+}
+
+fieldset {
+    border: 2px solid #df551a;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 4%;
+}
+
+label {
+    padding-left: 15px;
+}
+
+.text {
+    margin-left: 340px;
+}
+
+.checkbox {
+    margin-left: 350px;
+}
+
+#autres {
+    width: 500px;
+}
+
+#lieu {
+    margin-left: 230px;
+    width: 550px;
+}
+
+#date {
+    margin-left: 235px;
+    width: 260px;
+}
+
+#heure_d {
+    margin-left: 250px;
+    width: 80px;
+}
+
+#heure_f {
+    margin-left: 268px;
+    width: 80px;
+}
+
+#nombre {
+    margin-left: 215px;
+}
+
+#budget1 {
+    margin-left: 150px;
+}
+
+#nom {
+    margin-left: 235px;
+    width: 260px;
+}
+
+#prenom {
+    margin-left: 215px;
+    width: 260px;
+}
+
+#societe {
+    margin-left: 220px;
+    width: 360px;
+}
+
+#tel {
+    margin-left: 250px;
+    width: 160px;
+}
+
+#email {
+    margin-left: 195px;
+    width: 360px;
+}
+
+button,
+a {
+    border-radius: 20%;
+    color: white;
+    background-color: #df551a;
+}
+
+.envoyer {
+    background-color: black;
+    color: white;
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
